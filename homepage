@@ -1,0 +1,44 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body>
+
+
+
+
+
+
+
+
+
+
+<div>
+
+<div style="background-color:#add8e6;padding-left:15px;padding-right:10px;padding-top:5px;padding-bottom:1000px">
+
+<h2> <center> Welcome To The Dream Teams Calculator Machine </center></h2>
+
+<p> <h4>       We welcome you to our welsite. Within our site you will have a change to test out our different calculators. For example, we have additon, subtraction, multication, cube, squaring and division. Enjoy. </h4></p> 
+<p>       Click on the button below to select the mathematical operation you would like to use. </p>
+
+<div>
+    
+<button> MATHEMATICAL OPERATIONS </button>
+    
+    
+    
+<div>
+    <a href="http://add.html" target="_blank"> Addition </a>
+    <a href="http://subtract.html" target="_blank"> Subtraction </a>
+    <a href="http://multiply.html" target="_blank">Multiplication </a>
+    <a href="http://divide.html" target="_blank"> Division </a>
+	<a href="http://cube.html" target="_blank"> Cube </a>
+	<a href="http://square.html" target="_blank"> Squaring </a>
+	
+</div>
+</div>
+
+
+
+
+</div>
+
+</div></body></html>
