@@ -38,12 +38,16 @@
         var dOut;       // Double variable to store output to the web page
         
         dInput = numValue.value;
-
-        dOut = Math.sqrt(dInput);
-        
-        // Output the final string to the web page:
-        document.getElementById("txtOutput").innerHTML = dOut;
-
+	if(dInput >= 0)
+	{
+        	dOut = Math.sqrt(dInput);
+        	// Output the final string to the web page:
+        	document.getElementById("txtOutput").innerHTML = dOut;
+	}
+	else
+	{
+		document.getElementById("txtOutput").innerHTML = "Error: number has to be positive";
+	}
         return;
     }
  </script>
