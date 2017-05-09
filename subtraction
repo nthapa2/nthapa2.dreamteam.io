@@ -5,10 +5,10 @@
 <script language="javascript">
 function addNumbers()
 {
-var val1 = parseInt(document.getElementById("value1").value);
-var val2 = parseInt(document.getElementById("value2").value);
-var ansD = document.getElementById("answer");
-ansD.value = val1 - val2;
+  var val1 = parseInt(document.getElementById("value1").value);
+  var val2 = parseInt(document.getElementById("value2").value);
+  var ansD = document.getElementById("answer");
+  ansD.value = val1 - val2;
 }
 </script>
 </head>
@@ -16,7 +16,7 @@ ansD.value = val1 - val2;
 <h2> <center> <br> Subtraction </center></h2>
 <p><B>value1 = <input type="text" id="value1" name="value1" value="1"/></p>
 <p><B>value2 = <input type="text" id="value2" name="value2" value="2"/></p>
-<p><input type="button" name="Sumbit" value="Click here" onclick="javascript:addNumbers()"/> </p>
+<p> <input type="button" name="Sumbit" value="Click here" onclick="javascript:addNumbers()"/> </p>
 Answer = <input type="text" id="answer" name="answer" value=""/>
 </body>
 </html>
