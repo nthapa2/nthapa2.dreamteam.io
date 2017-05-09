@@ -27,8 +27,15 @@
 
         dOut = Math.sqrt(dInput);
         
+        if(dOut < 0)
+        {
+            Console.log("Error: Number must be positive");
+        }
+        else
+        {
         // Output the final string to the web page:
         document.getElementById("txtOutput").innerHTML = dOut;
+        }
 
         return;
     }
