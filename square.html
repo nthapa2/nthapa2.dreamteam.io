@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title> Square Root Calculator </title>
+</head>
+<body>
+
+<div style="background-color: #ADD8E6; padding-left: 15px; padding-right: 10px; padding-top: 5px; padding-bottom: 1000px">
+
+    <div align="center">
+	<a href="HomePage.html"> HomePage </a> |
+    <a href="add.html"> Addition </a> |
+    <a href="subtract.html"> Subtraction </a> |
+    <a href="multiply.html">Multiplication </a> |
+    <a href="divide.html"> Division </a> |
+	<a href="cube.html"> Cube </a> |
+	<a href="square.html"> Squaring </a>
+</div>
+    <center> <h2> <p> <B>CALCULATE SQUARE </P> </center></h2>
+      <center>
+       <p>   
+
+
+    
+<p>
+    Enter a number to find the square root: <input type="number" id="numValue" maxlength ="50"/>
+</p>
+    
+<p>
+    <button type="button" onclick="fvGetSqRt()"> Go </button>
+</p>
+<p id="txtOutput"> Click Go </p>
+
+<script>
+    function fvGetSqRt()
+    {
+        var dInput;     // Variable to store the value typed into the textbox square root
+
+        var dOut;       // Double variable to store output to the web page
+        
+        dInput = numValue.value;
+
+        dOut = Math.sqrt(dInput);
+        
+        // Output the final string to the web page:
+        document.getElementById("txtOutput").innerHTML = dOut;
+
+        return;
+    }
+ </script>
+
+</body>
+</html>
