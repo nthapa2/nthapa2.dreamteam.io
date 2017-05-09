@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>Cube Calculator</title>
+</head>
+<body>
+
+    <h1>Cube Calculator</h1>
+
+</select>
+    
+<p>
+    Enter a number to find the cube: <input type="number" id="numValue" maxlength ="50"/>
+</p>
+    
+<p>
+    <button type="button" onclick="fvGetCube()">Go</button>
+</p>
+<p id="txtOutput">Click Go</p>
+<script>
+    function fvGetCube()
+    {
+        var dInput;     // Variable to store the value typed into the textbox square root
+
+        var dOut;       // Double variable to store output to the web page
+        
+        dInput = numValue.value;
+
+        dOut = Math.pow(dInput,3);
+        
+        // Output the final string to the web page:
+        document.getElementById("txtOutput").innerHTML = dOut;
+
+        return;
+    }
+ </script>
+</body>
+</html>
